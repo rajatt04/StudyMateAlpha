@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.READ_MEDIA_IMAGES"
+        android:minSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".StudyMateAlpha"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StudyMateAlpha"
+        tools:targetApi="31">
+        <activity
+            android:name=".admin.AdminCreate"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".admin.Admin_panel"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".admin.Admin_view"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".assignment.assignment_add"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".assignment.assignment_view"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".faculty.faculty_add"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".faculty.Faculty_panel"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".faculty.Faculty"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".faculty.faculty_update"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".faculty.faculty_view"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".notice.notice_add"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".notice.notice_view"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".student.student_add"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".student.student_update"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".student.student_view"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".student.Student_panel"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".student.Student"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".AboutUs"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".admin.Admin"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".ContactUs"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
