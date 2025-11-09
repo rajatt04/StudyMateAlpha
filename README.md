@@ -22,6 +22,6 @@ Below are some screenshots of the StudyMateAlpha application showcasing its feat
 
 ## Support
 
-For support, email kotlindevslife@gmail.com !
+For support, email kevatrajat29@gmail.com !
 
 
